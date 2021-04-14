@@ -67,7 +67,7 @@ class ValuteController extends Controller
     {
                 
         $data = [];
-        $date = (!empty($_POST['date']))? date('d/m/Y', strtotime($_POST['date'])) : '';
+        $date = (!empty($_POST['date']))? date('d.m.Y', strtotime($_POST['date'])) : '';
 
       if( !empty($date) ):       
         
