@@ -94,7 +94,7 @@ class ValuteController extends Controller
 
             return $this->render('create', [
             'data' => $data,
-            'info' => 'Quyagi malumotlar bazaga saqlandi.',
+            'info' => 'Следующий информации сохранено в базе.',
         ]);
       endif;        
 
@@ -150,6 +150,6 @@ class ValuteController extends Controller
             return $model;
         }
 
-        throw new NotFoundHttpException('The requested page does not exist.');
+        throw new NotFoundHttpException('Запрошенная страница не существует.');
     }
 }

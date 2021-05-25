@@ -41,7 +41,7 @@ class ApiController extends \yii\rest\ActiveController
 
       endif; 
       
-      return ( count($currency) > 0 )? $currency: 'Malumot topilmadi.';
+      return ( count($currency) > 0 )? $currency: 'Данные не найдено!';
 
     } 
   
